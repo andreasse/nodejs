@@ -1,7 +1,7 @@
 var http = require('http');	//server package Iguess
 var fs = require('fs');		//read, edit, write files
 var url = require('url');	//getting info from theurl (e.g. /english might load another page)
-
+const PORT = process.env.port || 5000
 
 http.createServer(function (req, res) {
 	var q = url.parse(req.url, true); //	console.log(q.pathname); q as in query
@@ -28,6 +28,6 @@ http.createServer(function (req, res) {
 //	console.log("...incomming request: " + req.url)
 	return res.end(); //basically same as res.end(); justneaterwith return
 })
-}).listen(8080);
+}).listen(PORT);
 
 console.log("Server listening on port 8080...");
