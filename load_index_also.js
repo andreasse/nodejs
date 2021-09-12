@@ -1,7 +1,7 @@
 var http = require('http');	//server package Iguess
 var fs = require('fs');		//read, edit, write files
 var url = require('url');	//getting info from theurl (e.g. /english might load another page)
-const PORT = process.env.port || 5000
+const PORT = process.env.port || 3000;
 
 http.createServer(function (req, res) {
 	var q = url.parse(req.url, true); //	console.log(q.pathname); q as in query
