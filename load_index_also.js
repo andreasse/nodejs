@@ -1,11 +1,11 @@
 var http = require('http');	//server package Iguess
 var fs = require('fs');		//read, edit, write files
 var url = require('url');	//getting info from theurl (e.g. /english might load another page)
-const PORT = process.env.port || 3000;
+const PORT = process.env.PORT || 5000;
 
 http.createServer(function (req, res) {
 	var q = url.parse(req.url, true); //	console.log(q.pathname); q as in query
-	console.log(q);
+//	console.log(q);
 //	if (q.pathname=='/') {
 //		var filename = './index.html';
 //	} else {
@@ -30,4 +30,4 @@ http.createServer(function (req, res) {
 })
 }).listen(PORT);
 
-console.log("Server listening on port ${PORT}");
+console.log('Server listening on port ${PORT}');
