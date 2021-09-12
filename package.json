@@ -1,0 +1,19 @@
+{
+  "name": "nodefiles",
+  "version": "14.17.6",
+  "description": "web app",
+  "main": "load_index_also.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreasse/nodejs.git"
+  },
+  "author": "Andreas Sjöstedt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreasse/nodejs/issues"
+  },
+  "homepage": "https://github.com/andreasse/nodejs#readme"
+}
