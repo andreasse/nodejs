@@ -1,0 +1,1 @@
+web: node load_index_also.js
