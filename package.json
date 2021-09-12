@@ -4,7 +4,6 @@
   "description": "web app",
   "main": "load_index_also.js",
   "scripts": {
-    "postinstall": "npm run build",
     "start": "node load_index_also.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
